@@ -1,13 +1,12 @@
-[project]
+[tool.poetry]
 name = "dashboard"
 version = "0.1.0"
-description = "Add your description here"
-readme = "README.md"
-requires-python = ">=3.14"
-dependencies = [
-    "openpyxl>=3.1.5",
-    "pandas>=3.0.3",
-    "plotly>=6.8.0",
-    "scikit-learn>=1.9.0",
-    "streamlit>=1.58.0",
-]
+description = "Enterprise Call Management Analytics Hub"
+authors = ["Your Name <you@example.com>"]
+package-mode = false # 👈 ADD THIS EXACT LINE HERE
+
+[tool.poetry.dependencies]
+python = "^3.12"
+streamlit = "^1.58.0"
+pandas = "^3.0.3"
+# ... your other dependencies continue below
