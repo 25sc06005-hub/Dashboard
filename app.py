@@ -8,12 +8,12 @@ import os
 
 # 1. Page Configuration
 st.set_page_config(
-    page_title="Enterprise Call Management Analytics",
+    page_title="GSFC Ltd. Call Management Analytics",
     page_icon="📞",
     layout="wide"
 )
 
-st.title("Enterprise Call Management Analytics & Forecasting Hub")
+st.title("GSFC Ltd. Call Management Analytics & Forecasting Hub")
 st.markdown("An end-to-end data science platform tracking operations, SLA compliance, workforce timing heatmaps, and ML-driven demand forecasting.")
 
 
