@@ -223,7 +223,7 @@ if os.path.exists(EXCEL_FILE):
                     st.plotly_chart(fig_sla, use_container_width=True)
 
             with scol2:
-                st.markdown("#### ⏳ Open Ticket Backlog Aging Horizon")
+                st.markdown("#### Open Ticket Backlog Aging Bar Chart")
                 if len(open_df) > 0:
                     bins = [-1, 1, 3, 7, 30, float('inf')]
                     labels = ['0-1 Day (New)', '1-3 Days', '3-7 Days', '7-30 Days', '30+ Days (Critical)']
