@@ -2,11 +2,13 @@
 name = "dashboard"
 version = "0.1.0"
 description = "Enterprise Call Management Analytics Hub"
-authors = ["Your Name <you@example.com>"]
-package-mode = false # 👈 ADD THIS EXACT LINE HERE
+authors = ["Aryan Dutta <25sc06005@gsfcuniversity.ac.in>"]
+package-mode = false 
 
 [tool.poetry.dependencies]
-python = "^3.12"
+python = "^3.12" # Or whatever your version is
 streamlit = "^1.58.0"
 pandas = "^3.0.3"
-# ... your other dependencies continue below
+scikit-learn = "^1.9.0"
+openpyxl = "^3.1.5"
+plotly = "^6.8.0" 
